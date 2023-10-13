@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(142deg, #fbd39d, #f2b4b4, #b4f2b5, #99f2ff, #9f99ff, #f599ff);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 44s ease infinite;
+    -moz-animation: AnimationName 44s ease infinite;
+    -o-animation: AnimationName 44s ease infinite;
+    animation: AnimationName 44s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:22% 0}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:22% 0}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:22% 0}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0}
+}
+@keyframes AnimationName {
+    0%{background-position:22% 0}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0}
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: darkolivegreen;
+    vertical-align: center;
+    margin: auto;
+}
+
+.score {
+    margin: auto;
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+}
+
+.snake {
+    background-color: black;
+}
+
+.apple {
+    background-color: black;
+}
+
+.start {
+    width: 600px;
+    height: 60px;
+    background-color: black;
+    color: ghostwhite;
+    border: solid 1px ghostwhite;
+    font-weight: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 10px auto;
+}
